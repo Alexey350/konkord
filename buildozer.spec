@@ -100,15 +100,17 @@ android.permissions = INTERNET,WAKE_LOCK
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 
-android.api = 31
+android.api = 34
 android.minapi = 21
 android.sdk = 33.0.2
 
+
 # (str) Android NDK version to use
-#android.ndk = 23b
+#android.ndk = 25b
 
 # (int) Android NDK API to use. This is the minimum API your app will support, it should usually match android.minapi.
 #android.ndk_api = 21
+android.build_tools_version = 34.0.0
 
 # (bool) Use --private data storage (True) or --dir public storage (False)
 #android.private_storage = True
@@ -131,7 +133,7 @@ android.sdk = 33.0.2
 # agreements. This is intended for automation only. If set to False,
 # the default, you will be shown the license when first running
 # buildozer.
-# android.accept_sdk_license = False
+# android.accept_sdk_license = True
 
 # (str) Android entry point, default is ok for Kivy-based app
 #android.entrypoint = org.kivy.android.PythonActivity
