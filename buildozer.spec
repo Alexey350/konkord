@@ -102,7 +102,7 @@ android.permissions = INTERNET,WAKE_LOCK
 
 android.api = 34
 android.minapi = 21
-android.sdk = 33.0.2
+android.sdk = 34
 
 
 # (str) Android NDK version to use
